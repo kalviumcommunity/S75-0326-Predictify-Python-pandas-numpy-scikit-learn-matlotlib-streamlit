@@ -263,3 +263,37 @@ These insights can help businesses:
 ## Conclusion
 
 Building a project plan and defining an MVP ensures that a data science project remains focused, structured, and practical. It helps transform a problem into a clear workflow that leads to meaningful insights.
+
+
+## 🛠️ Environment Setup & Verification
+
+**Operating System:** [e.g., Windows 11 / macOS Sonoma]
+
+### 1. Installation Steps
+1. **Python:** Installed version 3.9 via the Anaconda distribution.
+2. **Anaconda:** Downloaded and installed Anaconda Individual Edition to manage data science dependencies.
+3. **Conda Environment:** Created a dedicated environment named `inventory_sprint` to keep project libraries isolated.
+
+### 2. Verification Commands
+I verified the installation using the following commands in the terminal:
+
+| Component | Command | Expected Output |
+| :--- | :--- | :--- |
+| **Python** | `python --version` | `Python 3.9.x` |
+| **Conda** | `conda --version` | `conda 23.x.x` |
+| **Environment**| `conda info --envs` | `inventory_sprint *` |
+
+
+## ✅ Environment Verification Status
+
+This system has been formally verified for the Sprint 3 Data Science workflows.
+
+* **Operating System:** Windows 
+* **Python Version:** 3.9.x (Verified via `python --version`)
+* **Conda Version:** 24.x.x (Verified via `conda --version`)
+* **Active Environment:** `inventory_sprint` (Verified via `conda env list`)
+
+### Jupyter Verification
+* Successfully launched `jupyter notebook` from the `inventory_sprint` environment.
+* Successfully created a new notebook and executed Python code in the browser without kernel connection errors.
+* **Proof:** The environment paths are correctly isolated from the global Windows Python installation.
